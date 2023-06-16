@@ -9,22 +9,28 @@ visualización de la acción del juego.
 ## Fantasmas
 Los fantasmas aparecen por la parte izquierda de la pantalla, en cinco puntos predefinidos. A partir
 de ellos se mueven horizontalmente hacia la derecha a una velocidad constate de 6 m/s.
+
 Los puntos predefinidos donde se espanean los fantasmas están en las posiciones (-10, 2.45, 0),
 (-10, 1.66, 0), (-10, 0, 0), (-10, -1.24, 0) y (-10, -3.14, 0).
+
 Los fantasmas ejecutarán la animación de avance que presenta una oscilación de su sábana y sus
 ojos. Esta animación se crea a partir del sprite fantasmas.png, usando los 6 primeros frames, los
 de la fila superior con el fantasma en color rojo.
+
 En cada frame se decidirá aleatoriamente, con una probabilidad 0.001 si se debe espanear un
 fantasma. Si la decisión es positiva se escogerá de forma aleatoria equiprobable entre los cinco
 puntos de espaneo, en cual de ellos se espaneará el fantasma. Cuando se espanea un fantasma se
 reproducirá el sonido GhostSpawn.wav.
+
 Cada fantasma espaneado podrá decidir moverse oblicuamente en lugar de horizontalmente. La
 decisión de moverse oblicuamente tendrá una probabilidad de 0.1.
+
 Si un fantasma se mueve oblicuamente deberá decidir la dirección de su movimiento de tal forma
 que llegue a la altura de la barrera dentro de su alcance. Esto es, el pivote del fantasma debe de estar
 entre los límites inferior y superior alcanzables por el cuerpo de la barrera. Su velocidad de
 desplazamiento seguirá siendo la misma, por lo que tardará más en atravesar la pantalla que si se
 moviera horizontalmente.
+
 El fantasma deberá destruirse a si mismo una vez superado el valor 20 en la coordenada X.
 
 ## Barrera
@@ -35,10 +41,12 @@ arriba y abajo. La barrera se moverá en el sentido indicado mientras el jugador
 correspondiente tecla pulsada, deteniéndose a ser liberada. La velocidad de desplazamiento de la
 barrera será de 8 m/s. El recorrido vertical tendrá como límites superior e inferior las coordenadas
 (8.5, 4, 0) y (8.5, -4, 0), respectivamente.
+
 Cuando un fantasma choque contra la barrera, detendrá su movimiento y ejecutará la animación de
 destrucción del mismo, que representa una pequeña explosión. También en este momento se
 reproducirá el sonido GhostHit.wav. Al terminar la animación de destrucción se destruirá el
 GameObject correspondiente al fantasma.
+
 Deberá contarse el número de fantasmas destruidos por el jugador y cada vez que esta cuenta
 cambie deberá mostrarse un mensaje en consola con el nuevo valor.
 Se debe evitar que los fantasmas puedan chocar entre si mediante un mecanismo de capas.
