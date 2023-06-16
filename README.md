@@ -2,6 +2,7 @@
 
 Crear en Unity un videojuego en 2D llamado GhostApocalypse. El objetivo del juego es impedir
 una invasión de fantasmas deteniendo su avance con una barrera móvil.
+
 La pantalla en modo play de Unity debe ajustarse a Full HD (1920x1080) para la correcta
 visualización de la acción del juego.
 
