@@ -49,7 +49,9 @@ GameObject correspondiente al fantasma.
 
 Deberá contarse el número de fantasmas destruidos por el jugador y cada vez que esta cuenta
 cambie deberá mostrarse un mensaje en consola con el nuevo valor.
+
 Se debe evitar que los fantasmas puedan chocar entre si mediante un mecanismo de capas.
+
 Cuando un fantasma alcance la coordenada X 10 se considerará que ha superado los intentos del
 jugador por detenerlo y restará vida del jugador. Cuando cambie el valor de vida del jugador, deberá
 mostrase el nuevo valor en consola. El valor de vida comenzará en 4 y una vez que alcance 0
@@ -57,6 +59,7 @@ terminará el juego. En ese momento se detendrá el espaneo de fantasmas, los fa
 dejarán de moverse y la barrera dejará de responder a las órdenes del jugador. Además deberá
 aparecer en la pantalla el cartel con el texto “GAME OVER”, creado con el sprite game_over.png.
 El cartel deberá mostrarse en las coordenadas (0, 0, 0).
+
 Se mostrará también un marcador de vidas restantes en la parte central superior de la pantalla. Este
 consistirá en 4 imágenes procedentes del primer frame del sprite del fantasma, situadas en las
 posiciones (-0.75, 4.5, 0), (-0.25, 4.5, 0), (0.25, 4.5, 0) y (0.75, 4.5, 0). Las
@@ -67,10 +70,12 @@ hará desaparecer el correspondiente fantasma, comenzando por el situado más a 
 Al golpear contra la barrera, cada fantasma anunciará la puntuación que le da al jugador, haciendo
 aparecer un cartel con el valor correspondiente. Este valor será de 100 puntos en los fantasmas con
 comportamiento normal y de 150 en los que se mueven en diagonal.
+
 El cartel se deberá hacer aparecer a un metro por encima de la posición del fantasma y se desplazará
 hacia arriba a una velocidad de 2.5 m/s. Al mismo tiempo que se desplaza, se irá desvaneciendo, de
 forma paulatina, hasta desaparecer completamente al cabo de 1.2 segundos. Tras desaparecer
 deberá destruirse el objeto.
+
 Se llevará una cuenta de los puntos totalizados, que se mostrarán en un marcador de cinco dígitos en
 la parte superior derecha de la pantalla. El marcador debe estar situado en la posición (7, 4.5, 0),
 y los dígitos deben estar colocados de forma simétrica respecto a esa misma posición, separados
