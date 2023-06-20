@@ -1,8 +1,10 @@
 # GhostApocalypse
 
-https://gamedevacademy.org/unity-game-over-tutorial/
+https://gamedevacademy.org/unity-game-over-tutorial/ -> Manejo de GameOver
 
-https://noobtuts.com/unity
+https://noobtuts.com/unity -> Diferentes tutoriales
+
+https://gamedevacademy.org/a-guide-to-the-unity-animator-for-2d-characters/ -> Animaciones
 
 Crear en Unity un videojuego en 2D llamado GhostApocalypse. El objetivo del juego es impedir
 una invasión de fantasmas deteniendo su avance con una barrera móvil.
