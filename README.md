@@ -6,6 +6,8 @@ https://noobtuts.com/unity -> Diferentes tutoriales
 
 https://gamedevacademy.org/a-guide-to-the-unity-animator-for-2d-characters/ -> Animaciones
 
+https://vionixstudio.com/2021/10/29/how-to-destroy-a-gameobject-in-unity/ -> Destroy GameObject
+
 Crear en Unity un videojuego en 2D llamado GhostApocalypse. El objetivo del juego es impedir
 una invasión de fantasmas deteniendo su avance con una barrera móvil.
 
