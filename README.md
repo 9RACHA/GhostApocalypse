@@ -14,6 +14,8 @@ https://medium.com/@chamo.wijetunga/movement-of-a-2d-player-in-unity-aff2b8f02fb
 
 https://gamedevbeginner.com/how-to-spawn-an-object-in-unity-using-instantiate/ -> Spawn con Instantiate 
 
+https://gamedevbeginner.com/how-to-play-audio-in-unity-with-examples/ -> Sonido
+
 Crear en Unity un videojuego en 2D llamado GhostApocalypse. El objetivo del juego es impedir
 una invasión de fantasmas deteniendo su avance con una barrera móvil.
 
